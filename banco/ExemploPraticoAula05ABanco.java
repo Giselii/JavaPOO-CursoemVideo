@@ -32,6 +32,7 @@ public class ExemploPraticoAula05ABanco {
         conta2.sacar(100);
         conta1.sacar(150);
         conta1.fechar();
+        conta2.sacar(50);//testando modificar direto no arquivo do GITHUB
       
         
         conta1.estadoAtual();
