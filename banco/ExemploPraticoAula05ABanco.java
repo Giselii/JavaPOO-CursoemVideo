@@ -23,9 +23,16 @@ public class ExemploPraticoAula05ABanco {
         
         Conta conta2 = new Conta();
         conta2.setNumConta("2222");
-        conta2.setDono("Creuza");
+        conta2.setDono("Joana");
         conta2.abrir("CP");
+
+        Conta conta3 = new Conta();
+        conta3.setNumConta("3333");
+        conta3.setDono("Maria");
+        conta3.abrir("CC");
         
+
+
         conta1.depositar(100);
         conta2.depositar(500);
         
@@ -37,11 +44,6 @@ public class ExemploPraticoAula05ABanco {
         
         conta1.estadoAtual();
         conta2.estadoAtual();
-        
-        
-        
-        
-        
         
         
         //conta1.status();
